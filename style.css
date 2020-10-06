@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .mini-header {
     height: 40px;
     line-height: 40px;
@@ -126,4 +131,65 @@ p {
 
 .featured-area-content a:hover {
     background-color: #00bc9c;
+}
+
+.services {
+    padding: 125px 0;
+    position: relative;
+    text-align: center;
+}
+
+.services-head-container {
+    width: 820px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.services-head-container h2 {
+    font-weight: bold;
+    font-size: 44px;
+    color: #506a85;
+    margin-bottom: 35px;
+}
+
+.services-head-container p {
+    font-size: 22px;
+    color: #73879c;
+}
+
+.service-icon {
+    color: #00bc9c;
+    font-size: 50px;
+    margin-right: 30px;
+}
+
+.service-icon i {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.service-text {
+    margin-left: 30px;
+}
+
+.service-text h3 {
+    font-size: 26px;
+    color: #506a85;
+    text-align: left;
+}
+
+.service-text p {
+    font-size: 16px;
+    color: #73879c;
+    text-align: left;
+}
+
+.services-col {
+    display: flex;
+    flex-direction: row;
+}
+
+.services-content {
+    margin-top: 90px;
 }
