@@ -126,7 +126,7 @@ p {
     padding: 17px 25px;
     text-transform: uppercase;
     font-weight: bold;
-    border-bottom: 2px solid #00a085;
+    border-bottom: 2px solid #199c87;
 }
 
 .featured-area-content a:hover {
@@ -192,4 +192,85 @@ p {
 
 .services-content {
     margin-top: 90px;
+}
+
+.home-posts {
+    padding: 125px 0;
+    background-color: #f2f5f7;
+}
+
+.section-head h2,
+p {
+    width: 100%;
+    text-align: center;
+}
+
+.section-head h2 {
+    font-size: 44px;
+    color: #506a85;
+    margin-bottom: 40px;
+}
+
+.section-head p {
+    font-size: 22px;
+    color: #73879c;
+    max-width: 740px;
+}
+
+.latest-posts {
+    margin-top: 80px;
+}
+
+.post-inner-col {
+    border-bottom: 2px solid #e6e9ed;
+    background-color: #ffffff;
+}
+
+.post-inner-col img {
+    width: 100%;
+    height: 100%;
+}
+
+.post-inner-col h4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #506a85;
+}
+
+.post-inner-col p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #73879c;
+}
+
+.carousal-row {
+    margin-top: 50px;
+}
+
+.carousal-row img {
+    margin: auto;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.owl-dots button {
+    display: inline-block;
+    border-radius: 50%;
+    border: 10px solid #506a85 !important;
+    margin-right: 5px;
+}
+
+.owl-dots button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+button.active {
+    border-color: #00bc9c !important;
 }
