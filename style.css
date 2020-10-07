@@ -1,6 +1,9 @@
+html,
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .mini-header {
@@ -320,22 +323,18 @@ button.active {
 }
 
 .footer {
-    height: 370px;
     background-color: #2f4052;
     color: white;
 }
 
 .footer .content {
-    width: 1170px;
+    max-width: 1170px;
     margin: auto;
 }
 
 .footer .row {
     padding-top: 77px;
-}
-
-.footer .block {
-    /* border: 1px solid white; */
+    padding-bottom: 77px;
 }
 
 .footer .block p {
@@ -440,4 +439,102 @@ button:hover {
     background-color: #00bc9c;
     outline: none;
     border: none;
+}
+
+.hamburger {
+    float: right;
+    display: none;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.hamburger a {
+    color: #506a85;
+}
+
+.hamburger a:active,
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #506a85;
+}
+
+@media screen and (max-width: 991px) {
+    .services-content .services-col:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .latest-posts .posts-col:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .main-header .container,
+    .mini-header .container {
+        max-width: 100%;
+    }
+    .main-header .logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .menu li:last-child {
+        float: none;
+    }
+    .main-header .menu {
+        text-align: center;
+    }
+    .main-header {
+        margin-bottom: 10px;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer .block:not(:first-child) {
+        margin-top: 50px;
+    }
+    .input-group {
+        max-width: 400px;
+    }
+    .header-contact,
+    .header-social {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main-header .menu {
+        display: none;
+    }
+    .main-header {
+        margin-bottom: 0px;
+    }
+    .main-header .logo {
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .hamburger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .header-social {
+        display: none;
+    }
+    .header-contact,
+    .header-social {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .featured-area-content h1 {
+        font-size: 50px;
+    }
+    .work-withus .content {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .services {
+        padding: 60px 0;
+    }
 }
