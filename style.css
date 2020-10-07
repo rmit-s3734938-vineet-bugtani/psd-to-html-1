@@ -274,3 +274,170 @@ p {
 button.active {
     border-color: #00bc9c !important;
 }
+
+.work-withus .content {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.work-withus h2 {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 44px;
+    color: #506a85;
+}
+
+.work-withus p {
+    margin-bottom: 40px;
+    font-size: 22px;
+    color: #73879c;
+    max-width: 740px;
+}
+
+.work-withus a {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin: auto;
+    background-color: #00bc9c;
+    border: none;
+    border-bottom: 2px solid #00a085;
+}
+
+.work-withus a:hover {
+    background-color: #00bc9c;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #00a085;
+}
+
+.work-withus a span {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer {
+    height: 370px;
+    background-color: #2f4052;
+    color: white;
+}
+
+.footer .content {
+    width: 1170px;
+    margin: auto;
+}
+
+.footer .row {
+    padding-top: 77px;
+}
+
+.footer .block {
+    /* border: 1px solid white; */
+}
+
+.footer .block p {
+    text-align: left;
+}
+
+.footer .block img {
+    background-color: #2f4052;
+    margin-bottom: 25px;
+}
+
+.footer-imgs {
+    width: 120px;
+    height: 90px;
+}
+
+.footer-imgs-row {
+    margin-top: 0;
+    max-height: 95px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .block .heading {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.footer .block .middle-content {
+    font-size: 14px;
+    color: #a3b1bf;
+    margin-bottom: 30px;
+}
+
+.footer .block #footer-content-one {
+    font-size: 15px;
+    color: #a3b1bf;
+}
+
+.footer .block #footer-content-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .block #footer-content-two i {
+    font-size: 14px;
+    color: #a3b1bf;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.footer .block #footer-content-two i:nth-last-child() {
+    margin-bottom: 0px;
+}
+
+.footer .block #footer-content-two i span {
+    font-size: 14px;
+    color: #a3b1bf;
+    margin-left: 25px;
+}
+
+.footer .block #footer-content-two #left {
+    margin-left: 20px;
+}
+
+.footer .block .input-group input {
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+
+.footer .block .input-group button {
+    width: 80px;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #00bc9c;
+    color: #ffffff;
+    height: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    right: 2px;
+    position: absolute;
+    top: 5px;
+    border: none;
+    outline: none;
+}
+
+.footer .block .input-group button span {
+    text-align: center;
+}
+
+.footer .block .input-group button:active,
+button:focus,
+button:hover {
+    background-color: #00bc9c;
+    outline: none;
+    border: none;
+}
